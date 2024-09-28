@@ -42,7 +42,9 @@ experimental-features = nix-command flakes
 ---
 
 ## Instalación de Devbox
+```
 curl -fsSL https://get.jetify.com/devbox | bash
+```
 
 ### Configuración para los direnvs.
 Es posible que direnv no este instalado, chekealo ejecutando `direnv version`.
