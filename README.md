@@ -29,7 +29,7 @@ sh <(curl -L https://nixos.org/nix/install) --daemon
 Tras la instalación de nix tocaremos su configuración
 
 ``` bash
-sudo /etc/nix/nix.conf
+sudo nano /etc/nix/nix.conf
 ```
 ### Configuración de Nix
 
@@ -54,7 +54,7 @@ Para instalarlo en ubuntu es:
 sudo apt install direnv
 ```
 
-Asegúrate de tener en ~/.bashrc `eval "($direnv hook bash)"`
+Asegúrate de tener en ~/.bashrc `eval "$(direnv hook bash)"`
 
 ``` bash
 sudo nano ~/.bashrc
