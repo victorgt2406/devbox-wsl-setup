@@ -28,10 +28,10 @@ sh <(curl -L https://nixos.org/nix/install) --daemon
 
 Tras la instalación de nix tocaremos su configuración
 
+### Configuración de Nix
 ``` bash
 sudo nano /etc/nix/nix.conf
 ```
-### Configuración de Nix
 
 En dicho fichero añadiremos la siguiente linea
 
